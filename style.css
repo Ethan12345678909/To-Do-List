@@ -81,3 +81,104 @@ input{
     background: lightslategray;
     color: white;
 }
+body {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+
+
+
+
+* {
+    
+    
+}
+
+html,
+body {
+    width: 99%;
+    height: 99%;
+    background: linear-gradient(to left, #f7ffd3, #f7ffd3);
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    background: blue;
+    height: 3em;
+    line-height: 3em;
+    box-shadow: 3px 0 2px black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+caption a {
+    color: white;
+}
+
+table {
+    background: #ddd;
+    
+
+    font-size: 20px;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 2px black;
+    padding-top: 150px;
+    padding-left: 500px;
+}
+
+table,
+th,
+tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table thead th {
+    border: solid 1px white;
+    width: 3em;
+    height: 2em;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+table tbody td {
+    border: solid 1px white;
+    height: 2.7em;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+tbody a {
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+
+tbody a:hover {
+    background: blue;
+    color: white;
+}
+
+.null {
+    color: gray;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.selected {
+    background: blue;
+}
+
+.selected a {
+    color: white;
+}
